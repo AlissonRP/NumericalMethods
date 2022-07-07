@@ -1,6 +1,6 @@
 # Teste do latex no github
 
-$f(x) - f(x^*) = [f(x) - f(x^*)] - [f(x^*) - f^*(x^*)]$
+teste math $f(x) - f(x^{*}) = [f(x) - f(x^*)] - [f(x^*) - f^*(x^*)]$
 
 
 $$
