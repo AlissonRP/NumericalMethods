@@ -72,3 +72,5 @@ satisfazer pelo menos um dos critérios citados anteriormente. Vale
 ressaltar que computacionalmente deve se também colocar um método de
 parada com restrição no número de iterações, para não cairmos em loops
 infinitos.
+
+[Bisecção](bisection/README.md)

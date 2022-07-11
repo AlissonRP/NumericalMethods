@@ -25,6 +25,8 @@ bisection = function (g::Function, a::Real, b::Real; error::Real = 0.001)
 end
         
 
+f(x) = - 
+bisection(f, 5, 12)
 
-bisection(f, 1, 2)
 
+plot(f, 0:20)
