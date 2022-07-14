@@ -1,0 +1,10 @@
+---
+title: "Método de newton"
+format: gfm
+execute:
+  warning: false
+lang: pt
+
+---
+
+Pelo estudo da convergência no método do ponto fixo vimos que a velocidade de convergência era acelerada quanto menor fosse $|\varphi'(x)|$, assim o que o método de Newton faz é tentar justamente encontrar $\varphi$ tal que $\varphi(\theta) = 0$
