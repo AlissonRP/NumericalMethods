@@ -59,3 +59,7 @@ Os métodos numéricos aqui estudados são desenvolvidos de forma a satisfazer p
 
 
 [Bisecção](bisection/README.md)
+
+[Ponto fixo](fixed_point/README.md)
+
+[Newton](newton/README.qmd)

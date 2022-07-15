@@ -48,3 +48,10 @@ $x_{k+1} = \varphi(x_k)$ converge para $\theta$
 -   $\varphi(x)$ e $\varphi'(x)$ são contínuas em I,
 -   $|\varphi'(x)| \leq M < 1 \forall x \in I$
 -   $x_0 \in I$
+
+Para demonstrar esse teorema precisamos relembrar do teorema do valor
+médio (TVM):  
+**TVM**: Seja $f$ uma função contínua em um intervalo **fechado**
+\[a,b\] e diferenciável em (a,b), existe um ponto $c$ tal que:
+
+$$f'(c)=\dfrac{f(b)-f(a)}{b-a}$$

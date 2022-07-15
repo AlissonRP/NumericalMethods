@@ -25,8 +25,17 @@ bisection = function (g::Function, a::Real, b::Real; error::Real = 0.001)
 end
         
 
-f(x) = - 
+
 bisection(f, 5, 12)
 
 
 plot(f, 0:20)
+
+
+using ForwardDiff
+
+
+
+
+
+
