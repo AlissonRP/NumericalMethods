@@ -26,12 +26,6 @@ $\theta$, pois por exemplo suponha que $M=1$ e $|e_n| < 10^{-3}$, para
 $q=2$ tem-se que $|e_{n+1}|<10^{-6}$, ou seja o erro em $e_{n+1}$ decaí
 muito.
 
-Podemos manipular essa expressão e isolar $\alpha$
-
-$$
-\alpha = \dfrac{\log\bigg(\bigg|\dfrac{e_{n+1}}{e_n}\bigg|\bigg)}{\log\bigg(\bigg|\dfrac{e_{n}}{e_{n-1}}\bigg|\bigg)}
-$$
-
 Vamos agora calcular a ordem de convergência para alguns método já
 desenvolvidos: Podemos usar novamente a expansão em série de taylor de
 ordem 2, sabendo que $f(\theta)= 0$, $\varphi(\theta)=\theta$ e
@@ -55,10 +49,10 @@ $e_{k+1} = f''(\theta)\dfrac{(e_{n})^2}{2!}$, portanto $\alpha=2$
 ### Método da secante
 
 Existe uma maneira de encontrar “analiticamente” porém vamos encontrar
-analiticamente
+numericamente
 
 Podemos manipular a expressão do $e_{n+1}$ e isolar $\alpha$
 
 $$
-\alpha = \dfrac{\log\bigg(\bigg|\dfrac{e_{n+1}}{e_n}\bigg|\bigg)}{\log\bigg(\bigg|\dfrac{e_{n}}{e_{n-1}}\bigg|\bigg)}
+\alpha = \dfrac{\log\bigg(\bigg\lvert\dfrac{e_{n+1}}{e_n}\bigg\rvert\bigg)}{\log\bigg(\bigg\lvert\dfrac{e_{n}}{e_{n-1}}\bigg\rvert\bigg)}
 $$
